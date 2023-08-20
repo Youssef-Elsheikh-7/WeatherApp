@@ -91,7 +91,7 @@ function DetailsInfo() {
   }:${
     (currentDate.getMinutes() < 10 ? "0" : "") + currentDate.getMinutes()
   } ${pmAndAm}`;
-  const daynum = currentDate.getDay();
+  const daynum = currentDate.getDate();
   const year = currentDate.getFullYear();
   // Variable
   const apiKey = "0e96362e14e81e1f2ac020d4ebfd05be";
