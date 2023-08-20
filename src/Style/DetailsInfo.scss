@@ -1,0 +1,49 @@
+.weather-info{
+  position: absolute;
+  bottom: 150px;
+  left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  .deg {
+    font-size: 150px;
+    margin-bottom: 10px;
+  }
+  .cityInfo {
+    .cityName {
+      font-size: 46px;
+    margin-bottom: 10px;
+
+    }
+    p {
+      font-size: 20px;
+      letter-spacing: 1px;
+      margin: 0;
+    margin-bottom: 10px;
+
+    }
+  }
+  .weatherIcon {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 70px;
+    }
+    .description {
+      font-size: 20px;
+      margin-top: 5px;
+    }
+  }
+}
+
+@media (max-width:991px) {
+  .weather-info{
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+}

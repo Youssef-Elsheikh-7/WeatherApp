@@ -1,0 +1,41 @@
+.err-404{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #00000035;
+    .tex {
+      font-size: 26px;
+      margin: 20px auto;
+    }
+    .backTh {
+      cursor: pointer;
+      background-color: #F44336;
+      color: #fff;
+      border: none;
+      outline: none;
+      padding: 10px 15px;
+      font-size: 22px;
+      border-radius: 8px;
+    }
+}
+
+@media (max-width:991px) {
+  .err-404 {
+    position: fixed;
+    height: 100vh;
+    top: -100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+}
